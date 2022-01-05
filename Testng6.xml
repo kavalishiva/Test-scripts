@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Webdriver suite"  guice-stage="DEVELOPMENT" parallel="tests">
+  <test thread-count="5" name="Shiva test" verbose="2">
+    <classes>
+      <class name="Advance.Testng3"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+   <test thread-count="5" name="Sai test" verbose="2">
+    <classes>
+      <class name="Advance.Testng4"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+   <test thread-count="5" name="Shankar test" verbose="2">
+    <classes>
+      <class name="Advance.Testng5"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+  
+</suite> <!-- Default suite -->
